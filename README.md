@@ -1,4 +1,4 @@
-# **sena-base-2021 v6.0.5**
+# **Cortes básicos de la canal trasera, subproductos, conservación y rentabilidad cárnica**
 
 ## **Enlace GitHubPages**
 

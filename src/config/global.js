@@ -1,17 +1,23 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Cortes básicos de la canal trasera, subproductos, conservación y rentabilidad cárnica',
+    descripcionCurso:
+      'El componente formativo aborda los cortes básicos del cuarto trasero de la canal bovina, la clasificación de la carne en diferentes categorías, y el aprovechamiento de subproductos. También detalla métodos de conservación como refrigeración, congelación, esterilización y pasteurización. Además, incluye un análisis del rendimiento cárnico y subproductos obtenidos, así como un video explicativo sobre el desposte.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,28 +37,30 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Categorías de la carne',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Cortes del cuarto trasero de la canal bovina ',
             hash: 't_1_1',
           },
+          {
+            numero: '1.2',
+            titulo: 'Rendimiento cárnico ',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Rendimiento cárnico de la canal ',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Métodos de conservación de la carne ',
+            hash: 't_1_4',
+          },
         ],
-      },
-
-      {
-        nombreRuta: 'tema2',
-        numero: '2',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -102,32 +110,126 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Categorías de la carne ',
+      referencia:
+        'Recetas del Sur. (2023).Categorización de la Carne ¿Cómo funciona el Sistema?. [Archivo de video] Youtube.   ',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=3_xv-k2cBkg&ab_channel=RecetasdelSur',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Cortes del cuarto trasero de la canal bovina ',
+      referencia:
+        'Ecosistema de Recursos Educativos. (2018). Pasos para el desposte del cuarto trasero de la canal bovina. [Archivo de video] Youtube.   ',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=qfsXFexcZag&ab_channel=EcosistemadeRecursosEducativos  ',
+    },
+    {
+      tema: 'Rendimiento cárnico ',
+      referencia:
+        'La Finca de Hoy. (2019).Categorías y rendimiento cárnico del wagyu. [Archivo de video] Youtube. ',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=7tXfAq3wKY0&ab_channel=LaFincadeHoy  ',
+    },
+    {
+      tema: 'Rendimiento cárnico de la canal ',
+      referencia:
+        'TVMÁS. (2017). Veracruz Agropecuario - El Canal Bovino, rendimiento y cortes. [Archivo de video] Youtube.   ',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=GFbKOROEtas&ab_channel=TVM%C3%81S  ',
+    },
+    {
+      tema: 'Métodos de conservación de la carne ',
+      referencia:
+        'DW Pía Castro. (2019). El charqui o el arte de conservar carne. [Archivo de video] Youtube.   ',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=aTD2FQlKmrk&ab_channel=DWP%C3%ADaCastro ',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Canal bovina',
+      significado:
+        'parte del cuerpo del bovino que queda después de retirar la cabeza, patas, vísceras y piel. ',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Subproductos',
+      significado:
+        'materiales obtenidos del bovino además de la carne, como vísceras, sangre, huesos, y piel. ',
+    },
+    {
+      termino: 'Solomito',
+      significado:
+        'corte del cuarto trasero utilizado para preparar platos como <em>filet mignon</em>.',
+    },
+    {
+      termino: 'Refrigeración',
+      significado:
+        'método de conservación de la carne a bajas temperaturas, entre 1-2 ºC. ',
+    },
+    {
+      termino: 'Esterilización',
+      significado:
+        'método de conservación a temperaturas extremas (-115 ºC a -123 ºC) que elimina microorganismos. ',
+    },
+    {
+      termino: 'Vísceras rojas',
+      significado: 'órganos internos como corazón, hígado, riñón y lengua. ',
+    },
+    {
+      termino: 'Vísceras blancas',
+      significado:
+        'partes como intestinos y estómagos (mondongo, librillo, bonete, etc.). ',
+    },
+    {
+      termino: 'Congelación',
+      significado:
+        'Proceso de conservación que utiliza temperaturas bajo cero, generalmente a -18 ºC. ',
+    },
+    {
+      termino: 'Rumen',
+      significado:
+        'parte del estómago del bovino, conocida también como mondongo. ',
+    },
+    {
+      termino: 'Pasteurización',
+      significado:
+        'método de conservación que usa choque térmico para eliminar microorganismos. ',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'CONtexto Ganadero. (2014). Sello de calidad de carne colombiana se orienta a promocionar un producto orgánico.',
+      link:
+        'https://www.contextoganadero.com/internacional/sello-de-calidad-de-carne-colombiana-se-orienta-promocionar-un-producto-organico',
+    },
+    {
+      referencia:
+        'El Semiárido. (2015). Ensayan productos cárnicos con bajo contenido de sodio para atenuar el alto consumo de sal.',
+      link:
+        'http://www.elsemiarido.com/ensayan-productos-carnicos-con-bajo-contenido-de-sodio-para-atenuar-el-alto-consumo-de-sal/',
+    },
+    {
+      referencia:
+        'Instituto de Promoción de la Carne Vacuna Argentina (IPCVA). (2015). <em>Tipos de corte de carne</em>.',
+      link: 'http://www.ipcva.com.ar/nomenclador2015/index.html ',
+    },
+    {
+      referencia:
+        'La Trocha Digital. (2017, junio 19). Se viene la carne “larga vida”.',
+      link:
+        'La Trocha Digital. (2017, junio 19). Se viene la carne “larga vida”.',
+    },
+    {
+      referencia:
+        'Maribona, C. (2015, noviembre 17). La peculiar carne seca de Sudáfrica que se elabora en Sant Cugat del Vallés. ABC. ',
+      link:
+        'https://www.abc.es/viajar/gastronomia/20150320/abci-carne-biltong-sudafrica-201503181204.html',
     },
   ],
   creditos: [
@@ -150,8 +252,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Jorge Iván Cifuentes García ',
+          cargo: 'Experto temático ',
+          centro: 'Centro Agroindustrial - Regional Quindío',
+        },
+        {
+          nombre: 'Paola Alexandra Moya  ',
+          cargo: 'Evaluadora instruccional ',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -160,18 +267,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Andrés Felipe Herrera Roldan',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Luis Jesús Pérez Madariaga',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
