@@ -223,7 +223,7 @@ export default {
       referencia:
         'La Trocha Digital. (2017, junio 19). Se viene la carne “larga vida”.',
       link:
-        'La Trocha Digital. (2017, junio 19). Se viene la carne “larga vida”.',
+        'https://www.latrochadigital.com.ar/2017/06/19/se-viene-la-carne-larga-vida/',
     },
     {
       referencia:
@@ -257,7 +257,7 @@ export default {
           centro: 'Centro Agroindustrial - Regional Quindío',
         },
         {
-          nombre: 'Paola Alexandra Moya  ',
+          nombre: 'Paola Alexandra Moya Peralta',
           cargo: 'Evaluadora instruccional ',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
