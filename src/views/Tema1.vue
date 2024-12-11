@@ -126,7 +126,7 @@
     .cont_1_2
       .row
         .col-lg(data-aos="fade-right")
-          p El cuarto trasero de la canal bovina tiene un valor económico más alto en comparación con el delantero, y junto con la región dorsolumbar, produce la mayor parte de los cortes de alto valor comercial que ofrece el bovino. En Colombia, los cortes o postas se comercializan "sin hueso," lo que asegura una separación muscular definida y la clasificación de los cortes según su calidad.
+          p El cuarto trasero de la canal bovina tiene un valor económico más alto en comparación con el delantero, y junto con la región dorsolumbar, produce la mayor parte de los cortes de alto valor comercial que ofrece el bovino. En Colombia, los cortes o postas se comercializan "sin hueso", lo que asegura una separación muscular definida y la clasificación de los cortes según su calidad.
           p Cortes comerciales del cuarto posterior:
         .col-auto.d-none.d-lg-block(data-aos="fade-left")
           figure
@@ -181,7 +181,7 @@
               img(src="@/assets/curso/tema1/14.png")
             span Chocozuela
             div
-              p.mb-0 Sudar. En algunas regiones se le llama "pitar," que es el proceso de cocción en olla a presión
+              p.mb-0 Sudar. En algunas regiones se le llama "pitar", que es el proceso de cocción en olla a presión
         .col-lg-3.mb-4.col-md-6(data-aos="zoom-in" data-aos-duration="900")
           .cont_1_3.h-100
             figure
@@ -214,9 +214,9 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema1/18.png')})`}"
       )
       .bloque-texto-g__texto.p-4.p-xl-5
-        p.mb-0 La canal del bovino proporciona beneficios conocidos como "productos," que corresponden a los diferentes cortes de carne que se pueden extraer, ya sea del cuarto trasero o del delantero. Asimismo, entre estos productos se considera como residuo el deshuese, el cual puede destinarse a la industria para la extracción de calcio o para la fabricación de juguetes para caninos, debidamente tratados.
+        p.mb-0 La canal del bovino proporciona beneficios conocidos como "productos", que corresponden a los diferentes cortes de carne que se pueden extraer, ya sea del cuarto trasero o del delantero. Asimismo, entre estos productos se considera como residuo el deshuese, el cual puede destinarse a la industria para la extracción de calcio o para la fabricación de juguetes para caninos, debidamente tratados.
     
-    p.mt-5(data-aos="fade-up") Además, la canal ofrece otros beneficios conocidos como "subproductos," entre los que se incluyen vísceras rojas, vísceras blancas, huesos, carnaza, pelaje, pezuñas y sangre. Estos subproductos agregan valor al proceso de faenado y aprovechamiento del bovino.
+    p.mt-5(data-aos="fade-up") Además, la canal ofrece otros beneficios conocidos como "subproductos", entre los que se incluyen vísceras rojas, vísceras blancas, huesos, carnaza, pelaje, pezuñas y sangre. Estos subproductos agregan valor al proceso de faenado y aprovechamiento del bovino.
 
     .cont_1_4.mt-5.pt-4
       .cont_decorativo.mb-4.mt-5.p-relative(data-aos="fade-right")
@@ -253,7 +253,7 @@
                         span Riñón
                       li.d-flex
                         i.fas.fa-check-circle(style="color:#AA7B72;")
-                        span Pulmón (#[em boffe])
+                        span Pulmón (boffe)
                       li.d-flex
                         i.fas.fa-check-circle(style="color:#AA7B72;")
                         span Lengua
